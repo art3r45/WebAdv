@@ -1,0 +1,36 @@
+div{
+    overflow:visible;
+    background-color: aliceblue;
+    width:200px;
+    height:200px
+}
+
+.table{
+    width: 100%;
+    background-color: transparent;
+}
+
+.table table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    width:100%;
+}
+
+.table table th,td{
+    text-align: left;
+    padding: 10px;
+}
+
+.table table tr:nth-child(even){
+    background-color: blueviolet;
+}
+
+.table table tr:nth-child(odd){
+    background-color: transparent;
+}
+
+.table{
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
