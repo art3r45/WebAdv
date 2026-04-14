@@ -44,3 +44,14 @@ input:in-range{
     width:16px;
     height:16px;
  }
+ h1::after{
+    content:url("../images/globe-solid.png");
+ }
+
+ h1::selection{
+    color:white;
+    background-color: blue;
+ }
+ h1{
+    opacity:1;
+ }

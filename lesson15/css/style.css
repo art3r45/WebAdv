@@ -1,0 +1,46 @@
+div#static{
+    position:static;
+    border:3px solid blueviolet;
+    width:250px;
+    height:250px;
+    padding:20px;
+}
+div#relative{
+    position:relative;
+    border:3px solid blueviolet;
+    width:250px;
+    height:250px;
+    padding:20px;
+    top:20px;
+    left: 200px;
+}
+div#parent{
+position:relative;
+    border:3px solid blueviolet;
+    width:250px;
+    height:250px;
+    padding:20px;
+    right:200px;
+    left: 200px;
+    top:100px;
+}
+div#absolute{
+position:absolute;
+    border:3px solid blueviolet;
+    width:250px;
+    height:250px;
+    padding:20px;
+    right:200px;
+    left: 200px;
+    top:100px;
+}
+div#sticky{
+position:sticky;
+    border:3px solid blueviolet;
+    width:250px;
+    height:250px;
+    padding:20px;
+    right:200px;
+    left: 200px;
+    top:100px;
+}
