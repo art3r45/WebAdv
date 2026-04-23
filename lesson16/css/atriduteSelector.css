@@ -1,0 +1,16 @@
+a [href="https://shkolladigjitale.com/"]{
+    color: red;
+}
+p[class*="ds"] {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+div[id~="ds"]{
+    background-color: green;
+    color:white;
+    padding:20px;
+}
+img[title^="blue"]{
+    border: 2px solid blue;
+}
