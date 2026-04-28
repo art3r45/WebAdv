@@ -1,0 +1,47 @@
+:root{
+    --primary-color:white;
+    --secondary-color:blue;
+    --padding:20px;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+#example1{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+#example2{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px  solid yellow;
+   }
+
+#example3{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    background: url(../image1.png);
+   }
+   #example4{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px 60px 5px;
+    background-color: green;
+   }
